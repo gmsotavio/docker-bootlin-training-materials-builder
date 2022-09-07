@@ -1,0 +1,3 @@
+[submodule "training-materials"]
+	path = training-materials
+	url = https://github.com/bootlin/training-materials
