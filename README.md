@@ -10,8 +10,13 @@ git clone --recurse-submodules git@github.com:gmsotavio/docker-bootlin-training-
 
 ## Building docker image
 
-`docker build -t $USER/bootlin-materials-builder .`
+```
+docker build -t $USER/bootlin-materials-builder .
+```
 
 ## Running docker container
 
-`docker run -it --rm --mount type=bind,source=~/training-materials/,target=/materials/ $USER/bootlin-materials-builder`
+```
+docker run -it --rm --mount type=bind,source=~/training-materials/,target=/materials/ $USER/bootlin-materials-builder`
+```
+
